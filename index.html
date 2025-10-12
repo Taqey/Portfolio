@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Fjalla+One&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+<script src="JS/script.js"></script>
+
+
+  <title>Portfolio</title>
+
+
+</head>
+
+<body>
+
+  <!-- Navbar container (محتفظ به كما هو) -->
+  <div class="container-fluid p-0">
+    <div class="container w-100" id="topnav">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex justify-content-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav gap-5 text-center">
+              <a class="nav-link" href="#About">ABOUT</a>
+              <a class="nav-link" href="#">PROJECTS</a>
+              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="#">CONTACT</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <hr class="m-0">
+  </div>
+
+  <!-- Container 1 -->
+  <div class="container full-page">
+    <div class="card mb-3 w-100">
+      <div class="row g-0 align-items-center">
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h6 class="card-title mb-3 text-body-secondary">Hi, my name is Taqeyy Eldeen</h6>
+            <h3 class="card-text">
+              I’m a .NET full-stack developer who helps tech startups and software companies overcome performance
+              issues by building high-speed, scalable web applications using .NET, modern frontend tools, and AWS cloud,
+              delivering fast, reliable, and efficient digital solutions.
+            </h3>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <img src="icons/IMG_20231006_202021.jpg" alt="Taqeyy Eldeen">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Container 2 (About) -->
+  <div class="container full-page" id="About">
+    <div class="card mb-3 w-75">
+      <div class="row g-0 justify-content-center">
+
+        <div class="col-12">
+          <div class="card-body">
+            <h1 class="card-title text-center mb-4 text-body-secondary">About</h1>
+            <h5 class="card-text" id="abt">
+              I’m a .NET full-stack developer who’s passionate about turning ideas into fast, reliable, and scalable web applications. With X years of experience and Y successful projects, I thrive on tackling performance challenges and transforming them into solutions that just work — smoothly, efficiently, and beautifully.
+              <br><br>
+              I love exploring modern frontend tools and cloud technologies like AWS, combining them with solid backend development to create experiences that feel effortless and intuitive. My goal is always to deliver applications that delight users, solve real problems, and make a tangible impact for businesses.
+              <br><br>
+              I believe that technology should be seamless, exciting, and even fun — and I bring that philosophy into every project I work on. Whether it’s optimizing performance, designing clean interfaces, or deploying scalable cloud solutions, I aim to create digital products that make people smile and make teams proud.
+            </h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Containers إضافية -->
+<div class="container full-page d-flex justify-content-center align-items-center" id="skills-section">
+  <div class="row g-4 justify-content-center">
+          <h1 class="card-title mb-3 text-body-secondary text-center">Skills</h1>
+
+    <!-- Card 1: Frontend -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="icons/frontend.png" class="card-img-top rounded" alt="Frontend">
+        <div class="collapse collapse-horizontal" id="collapse1">
+          <div class="card card-body" style="width: 400px;">
+            <h5 class="card-title">Frontend</h5>
+            <p class="card-text">
+              <span class="badge badge-gradient m-1">HTML5</span>
+              <span class="badge badge-gradient m-1">CSS</span>
+              <span class="badge badge-gradient m-1">JavaScript</span>
+              <span class="badge badge-gradient m-1">Bootstrap</span>
+              <span class="badge badge-gradient m-1">jQuery</span>
+              <span class="badge badge-gradient m-1">Front-End Development</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Backend -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="icons/backend.png" class="card-img-top rounded" alt="Backend">
+        <div class="collapse collapse-horizontal" id="collapse2">
+          <div class="card card-body" style="width: 400px;">
+            <h5 class="card-title">Backend</h5>
+            <p class="card-text">
+              <span class="badge badge-gradient m-1">C#</span>
+              <span class="badge badge-gradient m-1">C++</span>
+              <span class="badge badge-gradient m-1">Java</span>
+              <span class="badge badge-gradient m-1">.NET Core</span>
+              <span class="badge badge-gradient m-1">ASP.NET MVC</span>
+              <span class="badge badge-gradient m-1">ASP.NET Web API</span>
+              <span class="badge badge-gradient m-1">Entity Framework</span>
+              <span class="badge badge-gradient m-1">SQL Server</span>
+              <span class="badge badge-gradient m-1">LINQ</span>
+              <span class="badge badge-gradient m-1">Back-End Development</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Cloud -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="icons/cloud.png" class="card-img-top rounded" alt="Cloud">
+        <div class="collapse collapse-horizontal" id="collapse3">
+          <div class="card card-body" style="width: 400px;">
+            <h5 class="card-title">Cloud</h5>
+            <p class="card-text">
+              <span class="badge badge-gradient m-1">AWS</span>
+              <span class="badge badge-gradient m-1">Amazon EC2</span>
+              <span class="badge badge-gradient m-1">Amazon S3</span>
+              <span class="badge badge-gradient m-1">Cloud Computing</span>
+              <span class="badge badge-gradient m-1">Cloud Development</span>
+              <span class="badge badge-gradient m-1">Cloud Infrastructure</span>
+              <span class="badge badge-gradient m-1">Cloud Architecture</span>
+              <span class="badge badge-gradient m-1">Cloud Services Management</span>
+              <span class="badge badge-gradient m-1">Docker Products</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+  </div>
+<div class="container full-page" id="Education">
+  <h1 class="card-title mb-4 text-center text-body-secondary ">Education</h1>
+  <div class="card mb-3 w-100 shadow-lg p-4" style="border-radius: 15px;">
+    
+    <div class="row g-0 align-items-center">
+
+      <!-- Text Column -->
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-text" style="font-size: 1.2rem; line-height: 1.6; font-weight: 500; color: #212529;">
+            <strong>Alexandria University</strong><br>
+            Faculty of Computers and Data Science<br>
+            Bachelor of Science in Data Science<br>
+            Expected Graduation: 2027<br>
+            Major: Data Science<br>
+            Minor: Computer Science
+          </h3>
+        </div>
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-md-4 text-center">
+        <img src="icons/au-logo.png" alt="Alexandria University Logo" class="img-fluid" >
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  
+  
+<!-- Work Experience Section -->
+<div class="container full-page" id="WorkExperience">
+  <h1 class="card-title mb-4 text-center text-body-secondary">Work Experience</h1>
+
+  <!-- Experience 1: DEPI -->
+  <div class="card mb-3 w-100 shadow-lg p-4" style="border-radius: 15px;">
+    <div class="row g-0 align-items-center">
+      
+      <!-- Text Column -->
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Full Stack Developer Trainee</strong></h4>
+          <h5 class="card-subtitle mb-2 text-muted">Digital Egypt Pioneers Initiative (DEPI) · Internship</h5>
+          <p class="text-muted mb-2">Jun 2025 - Present · 5 mos</p>
+          <ul style="line-height: 1.6;">
+            <li>Gained hands-on experience building scalable applications using the .NET ecosystem.</li>
+            <li>Developed 10+ backend modules and 15+ REST API endpoints with ASP.NET Core, MVC, Web API, Entity Framework & LINQ.</li>
+            <li>Applied Clean Architecture (Presentation, Application, Domain, Infrastructure) and SOLID principles using Repository & Unit of Work patterns.</li>
+            <li>Built responsive front-end interfaces with HTML5, CSS, Bootstrap, JavaScript, and jQuery.</li>
+            <li>Used Git & GitHub for version control, tested APIs with Postman and Swagger, and deployed apps using Docker Products.</li>
+          </ul>
+          <p><strong>💡 Project – Cartify:</strong> Developed a full-stack e-commerce platform with 4-layer Clean Architecture, 15+ backend endpoints, supporting 50+ products, implementing Repository & Unit of Work patterns for maintainability.</p>
+        </div>
+      </div>
+
+      <!-- Logo Column -->
+      <div class="col-md-4 text-center">
+        <img src="icons/depi-logo.png" alt="DEPI Logo" class="img-fluid">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Experience 2: NTI -->
+  <div class="card mb-3 w-100 shadow-lg p-4" style="border-radius: 15px;">
+    <div class="row g-0 align-items-center">
+      
+      <!-- Text Column -->
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title"><strong>Cloud Architect Trainee | AWS Solutions Architect</strong></h4>
+          <h5 class="card-subtitle mb-2 text-muted">National Telecommunication Institute (NTI) · Internship</h5>
+          <p class="text-muted mb-2">Aug 2025 - Sep 2025 · 2 mos · Alexandria, Egypt · On-site</p>
+          <ul style="line-height: 1.6;">
+            <li>Built foundational knowledge in AWS cloud services, focusing on scalable and cost-efficient architectures.</li>
+            <li>Hands-on experience with Amazon EC2, S3, VPC, RDS, and CloudWatch.</li>
+            <li>Applied Cloud Services Management & Operations for performance and reliability optimization.</li>
+            <li>Learned Cloud Architecture fundamentals: elasticity, high availability, disaster recovery planning.</li>
+            <li>Implemented IAM policies and secure access control for cloud security and governance.</li>
+            <li>Practiced solution design by mapping business requirements to AWS services efficiently.</li>
+          </ul>
+          <p><strong>💡 Outcome:</strong> Developed multiple cloud-ready application architectures and improved ability to design fault-tolerant, cost-optimized systems aligned with AWS best practices.</p>
+        </div>
+      </div>
+
+      <!-- Logo Column -->
+      <div class="col-md-4 text-center">
+        <img src="icons/nti-logo.png" alt="NTI Logo" class="img-fluid">
+      </div>
+
+    </div>
+  </div>
+
+
+<!-- Projects Section -->
+<div class="container full-page" id="Projects">
+  <h1 class="text-center mb-4 text-body-secondary">Projects</h1>
+
+  <!-- Project Card -->
+  <div class="card mb-4 shadow-lg p-4" style="border-radius: 15px;">
+    <div class="row g-0 align-items-start">
+
+      <!-- Project Text Column -->
+      <div class="col-md-12">
+        <div class="card-body">
+          <h3 class="card-title mb-2"><strong>Cartify 🛒</strong></h3>
+          <p class="card-text" style="line-height: 1.6; font-size: 1rem; color: #212529;">
+            Cartify is a full-stack E-Commerce Web Application designed to provide a seamless shopping experience for customers 
+            while empowering store owners and admins with management tools. <br><br>
+            <strong>Challenge:</strong> Build a scalable, maintainable system with clean architecture and multi-role support (Client, Store Owner, Admin). <br><br>
+            <strong>Solution:</strong> Implemented Clean Architecture principles, Repository & Unit of Work patterns, responsive frontend using HTML, CSS, Bootstrap/JavaScript, backend with ASP.NET Core, Entity Framework Core, and PostgreSQL/SQL Server. Integrated JWT Authentication, Docker deployment, and CI/CD pipelines.
+          </p>
+          <p class="card-text"><strong>Features:</strong></p>
+          <ul style="line-height: 1.6;">
+            <li><strong>Client:</strong> Home, Category, Product Details, Cart, Checkout, Order Tracking, Wishlist, Profile & Settings, Notifications, Support.</li>
+            <li><strong>Store Owner:</strong> Dashboard, Product & Order Management, Analytics, Store Profile.</li>
+            <li><strong>Admin:</strong> User & Store Management, Product & Order Management, Category Management, Reports & Analytics, System Notifications, Settings.</li>
+          </ul>
+          <p class="card-text"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap/Tailwind, ASP.NET Core, EF Core, PostgreSQL/SQL Server, JWT, Docker, CI/CD, Clean Architecture.</p>
+          <p class="card-text"><strong>Team Members:</strong> Ahmed Ayad, Taqey Eldeen, Mark Osama, Mohamed Raouf, Mustafa Nasr.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+<!-- Container 9: Personal Values -->
+<div class="container full-page" id="PersonalValues">
+  <h1 class="card-title mb-4 text-center text-body-secondary">Personal Values</h1>
+  
+  <div class="row g-4 justify-content-center">
+
+    <!-- Love -->
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center p-3">
+        <h4 class="mb-2">Love</h4>
+        <p style="font-size: 0.95rem; line-height: 1.4;">
+          I approach every project with passion and care, ensuring that the solutions I deliver are meaningful and well-crafted.
+        </p>
+      </div>
+    </div>
+
+    <!-- Loyalty -->
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center p-3">
+        <h4 class="mb-2">Loyalty</h4>
+        <p style="font-size: 0.95rem; line-height: 1.4;">
+          I commit fully to my team and projects, building trust through consistent work and dedication to results.
+        </p>
+      </div>
+    </div>
+
+    <!-- Honesty -->
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center p-3">
+        <h4 class="mb-2">Honesty</h4>
+        <p style="font-size: 0.95rem; line-height: 1.4;">
+          I communicate clearly and transparently, providing honest feedback and maintaining integrity in every interaction.
+        </p>
+      </div>
+    </div>
+
+    <!-- Friendship -->
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center p-3">
+        <h4 class="mb-2">Friendship</h4>
+        <p style="font-size: 0.95rem; line-height: 1.4;">
+          I value collaboration and strong professional relationships, fostering a positive and supportive work environment.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Container: Services -->
+<div class="container full-page" id="Services">
+  <h1 class="card-title mb-4 text-center text-body-secondary">Services</h1>
+
+  <div class="row g-4 justify-content-center">
+
+    <!-- Service 1: Web Development -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100 text-center p-4">
+        <img src="icons/frontend.png" alt="Web Development" class="img-fluid mb-3" style="height:180px; object-fit:contain;">
+        <h4 class="mb-3">Web Development</h4>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          I design and develop modern, responsive websites that work seamlessly across devices. Using technologies like .NET, HTML5, CSS, JavaScript, and Bootstrap, I ensure fast-loading and user-friendly interfaces. Every project focuses on clean code, maintainable structure, and smooth user experience, making websites both functional and visually appealing.
+        </p>
+      </div>
+    </div>
+
+    <!-- Service 2: Backend Development -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100 text-center p-4">
+        <img src="icons/backend.png" alt="Backend Development" class="img-fluid mb-3" style="height:180px; object-fit:contain;">
+        <h4 class="mb-3">Backend Development</h4>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          I build robust backend systems, creating APIs and modules that handle data efficiently and securely. Using ASP.NET Core, MVC, Web API, and SQL Server, I focus on scalable and maintainable code. My goal is to connect backend services seamlessly with the frontend, delivering fast and reliable digital solutions.
+        </p>
+      </div>
+    </div>
+
+    <!-- Service 3: Cloud Solutions -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100 text-center p-4">
+        <img src="icons/cloud.png" alt="Cloud Solutions" class="img-fluid mb-3" style="height:180px; object-fit:contain;">
+        <h4 class="mb-3">Cloud Solutions</h4>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          I deploy and manage applications on AWS, ensuring scalable, reliable, and secure cloud infrastructure. Working with EC2, S3, VPC, and other AWS services, I design environments that are optimized for performance and cost-efficiency. I focus on practical cloud solutions that support your application’s growth and availability.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Container: Call to Action -->
+<div class="container full-page d-flex flex-column justify-content-center align-items-center text-center" id="ContactCTA">
+  <h1 class="mb-4 text-body-secondary" style="font-size: 2.5rem; font-weight: 700;">Let's Build Something Together</h1>
+  <p class="mb-4" style="font-size: 1.2rem; line-height: 1.8; max-width: 700px;">
+    I love turning ideas into real projects and creating things that just work. Whether it’s a web app, a cloud solution, or just a chat about technology — I’m excited to connect and make it happen.
+  </p>
+  <a href="#Contact" class="btn btn-lg gradient-btn" style="font-weight: 600; padding: 0.8em 2em;">Get in Touch</a>
+</div>
+<!-- Footer -->
+
+
+<footer class="footer bg-light text-dark py-5" id="Contact">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      
+      <!-- Logo / Name -->
+      <div class="col-md-4 mb-4">
+        <h4 class="fw-bold">Taqeyy Eldeen</h4>
+        <p>Full-Stack .NET Developer</p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-semibold mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#About" class="text-decoration-none text-dark">About</a></li>
+          <li><a href="#skills-section" class="text-decoration-none text-dark">Skills</a></li>
+          <li><a href="#Education" class="text-decoration-none text-dark">Education</a></li>
+          <li><a href="#Contact" class="text-decoration-none text-dark">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media / Contact -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-semibold mb-3">Connect with Me</h5>
+        <a href="#" class="text-dark me-3"><i class="bi bi-github"></i> GitHub</a>
+        <a href="#" class="text-dark me-3"><i class="bi bi-linkedin"></i> LinkedIn</a>
+        <a href="#" class="text-dark"><i class="bi bi-envelope"></i> Email</a>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <!-- Copyright -->
+    <div class="text-center mt-3">
+      <p class="mb-0">&copy; 2025 Taqeyy Eldeen. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
