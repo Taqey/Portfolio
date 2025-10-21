@@ -136,3 +136,19 @@ body {
 #Projects ul {
   padding-left: 1.5rem;
 }
+@media (max-width: 768px) {
+  #topnav .navbar-nav {
+    gap: 1rem !important; /* بدل 5rem */
+  }
+}
+
+.navbar-nav .nav-link {
+  color: #6c757d; /* رمادي ناعم */
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color:#b4d2fe; /* أزرق متوسط */
+  text-decoration: none;
+}
